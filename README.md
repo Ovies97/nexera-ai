@@ -1,4 +1,4 @@
-# nexera-aiai-3D-Avatar-training-project
+# ai-3D-Avatar-training-project
 What’s Included ✅ Prototype 1 — AI → 3D Learning Asset
 
 User enters a text description (e.g. “yellow hard hat”)
