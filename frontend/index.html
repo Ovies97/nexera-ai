@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NexEra AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="ui">
+        <h1>NexEra AI</h1>
+      
+        <div class="tabs">
+          <button id="tab3d" class="tab active">3D Asset</button>
+          <button id="tabAvatar" class="tab">Avatar</button>
+        </div>
+      
+        <!-- 3D ASSET PANEL -->
+        <div id="panel3d">
+          <input id="promptInput" type="text" placeholder="Describe the object you want..." />
+          <input id="fileInput" type="file" accept=".png,.jpg,.jpeg,.glb,.gltf" />
+          <button id="generateBtn">Generate</button>
+        </div>
+      
+        <!-- AVATAR PANEL -->
+        <div id="panelAvatar" style="display:none;">
+          <input id="commandInput" type="text" placeholder='e.g. "Wave hello to the learner"' />
+          <button id="runCommandBtn">Run Command</button>
+        </div>
+      
+        <div id="summaryText" class="summary"></div>
+      </div>
+      
+      <canvas id="renderCanvas"></canvas>
+      <script src="https://cdn.babylonjs.com/babylon.js"></script>
+      <script src="https://cdn.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+      <script src="app.js"></script>
+      
+</body>
+</html>
